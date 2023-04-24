@@ -1,0 +1,52 @@
+*{
+	margin:0px;
+	box-sizing:border-box;
+	padding:0px;
+}
+.sheik{
+	position:absolute;
+	width:70%;
+	height:70%;
+	border:2px solid;
+	overflow:hidden;
+	top:123;
+	left:230;
+	background-color:#080808;
+	
+}
+.sheik img{
+
+	height:100%;
+	width:100%;
+	transition:all .9s ease;
+	overflow:hidden;
+	position:relative;
+	opacity:1;
+	
+	
+	
+}
+
+
+.sheik img:hover{
+	
+	transform:scale(120%);
+	opacity:.4;
+	
+	
+	
+	
+}
+.ali{
+	height:40px;
+	width:100%;
+	text-align:center;
+	color:red;
+	
+	margin-top:30px;
+	display:inline block;
+}
+.ali h1{
+	text-align:center;
+	
+}
